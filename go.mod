@@ -1,4 +1,4 @@
-module github.com/hi-unc1e/grdp
+module github.com/wavereach/grdp
 
 go 1.16
 
