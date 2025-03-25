@@ -5,13 +5,14 @@ import "C"
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/hi-unc1e/grdp"
-	"github.com/hi-unc1e/grdp/glog"
 	"io/ioutil"
 	"log"
 	"os"
 	"strings"
 	"sync"
+
+	"github.com/wavereach/grdp"
+	"github.com/wavereach/grdp/glog"
 )
 
 var wg sync.WaitGroup

@@ -1,6 +1,6 @@
 package core
 
-import "github.com/hi-unc1e/grdp/emission"
+import "github.com/wavereach/grdp/emission"
 
 type Transport interface {
 	Read(b []byte) (n int, err error)

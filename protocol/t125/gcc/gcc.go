@@ -6,11 +6,11 @@ import (
 	"io"
 	"os"
 
-	"github.com/hi-unc1e/grdp/glog"
+	"github.com/wavereach/grdp/glog"
 
-	"github.com/hi-unc1e/grdp/core"
-	"github.com/hi-unc1e/grdp/protocol/t125/per"
 	"github.com/lunixbochs/struc"
+	"github.com/wavereach/grdp/core"
+	"github.com/wavereach/grdp/protocol/t125/per"
 )
 
 var t124_02_98_oid = []byte{0, 0, 20, 124, 0, 1}

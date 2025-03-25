@@ -6,12 +6,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hi-unc1e/grdp/glog"
+	"github.com/wavereach/grdp/glog"
 
-	"github.com/hi-unc1e/grdp/core"
-	"github.com/hi-unc1e/grdp/emission"
-	"github.com/hi-unc1e/grdp/protocol/tpkt"
 	"github.com/lunixbochs/struc"
+	"github.com/wavereach/grdp/core"
+	"github.com/wavereach/grdp/emission"
+	"github.com/wavereach/grdp/protocol/tpkt"
 )
 
 // take idea from https://github.com/Madnikulin50/gordp

@@ -1,8 +1,9 @@
 package core
 
 import (
-	"github.com/hi-unc1e/grdp/glog"
 	"unsafe"
+
+	"github.com/wavereach/grdp/glog"
 )
 
 func CVAL(p *[]uint8) int {

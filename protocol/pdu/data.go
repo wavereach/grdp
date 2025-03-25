@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hi-unc1e/grdp/core"
-	"github.com/hi-unc1e/grdp/glog"
 	"github.com/lunixbochs/struc"
+	"github.com/wavereach/grdp/core"
+	"github.com/wavereach/grdp/glog"
 )
 
 const (

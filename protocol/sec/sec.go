@@ -14,13 +14,13 @@ import (
 
 	"github.com/lunixbochs/struc"
 
-	"github.com/hi-unc1e/grdp/core"
-	"github.com/hi-unc1e/grdp/emission"
-	"github.com/hi-unc1e/grdp/glog"
-	"github.com/hi-unc1e/grdp/protocol/lic"
-	"github.com/hi-unc1e/grdp/protocol/nla"
-	"github.com/hi-unc1e/grdp/protocol/t125"
-	"github.com/hi-unc1e/grdp/protocol/t125/gcc"
+	"github.com/wavereach/grdp/core"
+	"github.com/wavereach/grdp/emission"
+	"github.com/wavereach/grdp/glog"
+	"github.com/wavereach/grdp/protocol/lic"
+	"github.com/wavereach/grdp/protocol/nla"
+	"github.com/wavereach/grdp/protocol/t125"
+	"github.com/wavereach/grdp/protocol/t125/gcc"
 )
 
 /**
@@ -784,7 +784,11 @@ func (c *Client) sendClientNewLicenseRequest(data []byte) {
 	r := new(big.Int).Exp(d, e, b)
 	var ret []byte
 	if len(b.Bytes()) > 0 {
-		ret = r.Bytes()[:len(b.Bytes())]
+		if len(r.Bytes()) < len(b.Bytes()) {
+			ret = r.Bytes()
+		} else {
+			ret = r.Bytes()[:len(b.Bytes())]
+		}
 	} else {
 		ln := len(r.Bytes())
 		if ln < 1 {

@@ -6,10 +6,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hi-unc1e/grdp/core"
-	"github.com/hi-unc1e/grdp/emission"
-	"github.com/hi-unc1e/grdp/glog"
-	"github.com/hi-unc1e/grdp/protocol/t125/gcc"
+	"github.com/wavereach/grdp/core"
+	"github.com/wavereach/grdp/emission"
+	"github.com/wavereach/grdp/glog"
+	"github.com/wavereach/grdp/protocol/t125/gcc"
 )
 
 type PDULayer struct {

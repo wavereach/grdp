@@ -8,12 +8,12 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/hi-unc1e/grdp/core"
-	"github.com/hi-unc1e/grdp/emission"
-	"github.com/hi-unc1e/grdp/glog"
-	"github.com/hi-unc1e/grdp/protocol/t125/ber"
-	"github.com/hi-unc1e/grdp/protocol/t125/gcc"
-	"github.com/hi-unc1e/grdp/protocol/t125/per"
+	"github.com/wavereach/grdp/core"
+	"github.com/wavereach/grdp/emission"
+	"github.com/wavereach/grdp/glog"
+	"github.com/wavereach/grdp/protocol/t125/ber"
+	"github.com/wavereach/grdp/protocol/t125/gcc"
+	"github.com/wavereach/grdp/protocol/t125/per"
 )
 
 // take idea from https://github.com/Madnikulin50/gordp

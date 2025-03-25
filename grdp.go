@@ -10,15 +10,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hi-unc1e/grdp/core"
-	"github.com/hi-unc1e/grdp/glog"
-	"github.com/hi-unc1e/grdp/protocol/nla"
-	"github.com/hi-unc1e/grdp/protocol/pdu"
-	"github.com/hi-unc1e/grdp/protocol/rfb"
-	"github.com/hi-unc1e/grdp/protocol/sec"
-	"github.com/hi-unc1e/grdp/protocol/t125"
-	"github.com/hi-unc1e/grdp/protocol/tpkt"
-	"github.com/hi-unc1e/grdp/protocol/x224"
+	"github.com/wavereach/grdp/core"
+	"github.com/wavereach/grdp/glog"
+	"github.com/wavereach/grdp/protocol/nla"
+	"github.com/wavereach/grdp/protocol/pdu"
+	"github.com/wavereach/grdp/protocol/rfb"
+	"github.com/wavereach/grdp/protocol/sec"
+	"github.com/wavereach/grdp/protocol/t125"
+	"github.com/wavereach/grdp/protocol/tpkt"
+	"github.com/wavereach/grdp/protocol/x224"
 )
 
 const (

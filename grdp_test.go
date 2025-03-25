@@ -2,8 +2,9 @@ package grdp
 
 import (
 	"fmt"
-	"github.com/hi-unc1e/grdp/glog"
 	"testing"
+
+	"github.com/wavereach/grdp/glog"
 )
 
 func testrdp(target string) {
