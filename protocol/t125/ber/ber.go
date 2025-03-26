@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"grdp/core"
+	"github.com/wavereach/grdp/core"
 )
 
 const (
